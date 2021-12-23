@@ -5,7 +5,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Stream;
 
@@ -13,7 +12,6 @@ import com.learnflux.dto.ResponseBodyHolder;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.ParallelFlux;
-import reactor.core.scheduler.Scheduler;
 import reactor.core.scheduler.Schedulers;
 
 public class FluxExample {
